@@ -8,8 +8,6 @@ void main(){
   // First Method
 
   number.sort();
-  number.reversed;
-  print(number);
   print(number.first);
   print(number.last);
 

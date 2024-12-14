@@ -5,7 +5,7 @@
 
 
 void main (){
-  Map<String,dynamic>World=
+  Map World=
   {"Pakistan":{"CapitalCity":"Islamabad",
                 "Currency":"Pkr",
                 "Lnguage":"Urdu"},
@@ -20,14 +20,13 @@ void main (){
 
   "Russia":{"CapitalCity":"Moscoo",
               "Currency":"Rubbel",
-                "Lnguage":"Russoan"}
+                "Lnguage":"Russian"}
                 };
 
 
-print(World["Pakistan"]);
-print(World["United States"]);
-print(World["United Kindom"]);
-print(World["Russia"]);
+print("${World["Pakistan"]["CapitalCity"]},${World["Pakistan"]["Currency"]}");
+print("${World["United States"]["CapitalCity"]},${World["Pakistan"]["Currency"]}");
+print("${World["United Kindom"]["CapitalCity"]},${World["Pakistan"]["Currency"]}");
+print("${World["Russia"]["CapitalCity"]},${World["Pakistan"]["Currency"]}");
 
-  
 }

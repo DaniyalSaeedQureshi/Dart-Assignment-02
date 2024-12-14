@@ -6,6 +6,6 @@ void main(){
   // PhoneKeys.removeWhere((key, value) => key.length<4);
   // print(PhoneKeys);
 
-  var length4=PhoneKeys.keys.where((key) => key.length==4);
+  var length4=PhoneKeys.keys.where((key) => key.length==4).toList();
   print(length4);
 }

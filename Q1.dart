@@ -2,5 +2,5 @@
 
 void main (){
   List<String> name=["Daniyal","Huraira","Gani","Uzair","Asif","Mhuammad","Mubashir","Saeed"];
-  print(name);
+  name.forEach((name)=>print(name));
 }
